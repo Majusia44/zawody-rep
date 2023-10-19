@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&display=swap');
+h1, h2, h3, h4, h5 {
+    font-family: 'Oswald';
+}
+p, a {
+    font-family: 'Oswald';
+
+}
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    max-width: 2500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(las.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+#menu{
+    grid-column: 1/12;
+    grid-row: 1/2;
+    background-color: darkolivegreen;
+}
+
+#home {
+    grid-column: 5/12;
+    grid-row: 2/3;
+    max-width: 1000px;
+    text-align: center;
+    background-color: #BDB76B;
+    border: 10px solid #808000;
+}
+#oblicz {
+    padding: 30px 50px 30px 50px;
+    border: 2px solid #808000;
+}
+#formularz{
+    grid-column: 3/9;
+    grid-row: 3/4;
+    text-align: center;
+}
+#suma{
+    grid-column: 3/9;
+    grid-row: 4/5;
+    text-align: center;
+}
+
+#pkt {
+    grid-column: 4/9;
+    grid-row: 5/6;
+    text-align: center;
+    border: 2px solid #808000;
+    
+    padding: 30px 50px 30px 50px;
+}
+#zdjecie{
+    grid-column: 5/9;
+    grid-row: 6/7;
+    padding: 20px 40px 40px 20px;
+    border: 2px solid #808000;
+   
+}
+#zdjecie img{
+    max-width: 40%;
+    
+}
+#zdjecie2{
+    grid-column: 5/9;
+    grid-row: 6/7;
+    padding: 20px 40px 40px 20px;
+    border: 2px solid #808000;
+   
+}
+#zdjecie2 img{
+    max-width: 40%;
+    
+}
+#mapa {
+    grid-column: 1/13;
+    grid-row: 8/9;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    border: 2px solid #808000;
+}
+.stopka {
+    grid-column: 1/13;
+    grid-row: 10/11;
+    background-color: #808000;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 2;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+
